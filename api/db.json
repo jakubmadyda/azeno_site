@@ -1,0 +1,53 @@
+{
+  "employees": [
+    {
+      "fullName": "Paweł Konior",
+      "position": "CEO",
+      "photo": "",
+      "seniority": 1,
+      "id": 1
+    },
+    {
+      "fullName": "Jakub Madyda",
+      "position": "Regular Frontend Developer",
+      "photo": "",
+      "seniority": 1,
+      "id": 2
+    },
+    {
+      "fullName": "Maciej Wasilewski",
+      "position": "Fullstack Developer",
+      "photo": "",
+      "seniority": 1,
+      "id": 3
+    },
+    {
+      "fullName": "Filip Surówka",
+      "position": "Regular Fronted Developer",
+      "photo": "",
+      "seniority": 1,
+      "id": 4
+    },
+    {
+      "fullName": "Bartłomiej Sabiniok",
+      "position": "Regular Frontend Developer",
+      "photo": "",
+      "seniority": 1,
+      "id": 5
+    },
+    {
+      "fullName": "Marta Stefaniak",
+      "position": "Regular Frontend Developer",
+      "photo": "",
+      "seniority": 1,
+      "id": 6
+    },
+    {
+      "fullName": "Maciej Mogilewski",
+      "position": "Regular Frontend Developer",
+      "photo": "",
+      "seniority": 1,
+      "id": 7
+    }
+  ]
+}
