@@ -44,6 +44,45 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "/contents",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/contents",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"contents"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/contents/<id>",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/contents/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"contents",
+						"1"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }

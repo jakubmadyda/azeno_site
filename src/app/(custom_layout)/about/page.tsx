@@ -1,6 +1,8 @@
 function Page() {
     return (
-        <div>About us</div>
+        <>
+            <h1 className="text-center text-5xl mb-5">About us</h1>
+        </>
     );
 }
 
