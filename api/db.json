@@ -5,49 +5,64 @@
       "position": "CEO",
       "photo": "",
       "seniority": 1,
-      "id": 1
+      "id": 1,
+      "github": "https://github.com/jakubmadyda",
+      "linkedin": "https://www.linkedin.com/in/jakubmadyda/"
     },
     {
       "fullName": "Jakub Madyda",
       "position": "Regular Frontend Developer",
       "photo": "",
       "seniority": 1,
-      "id": 2
+      "id": 2,
+      "github": "https://github.com/jakubmadyda",
+      "linkedin": "https://www.linkedin.com/in/jakubmadyda/"
+
     },
     {
       "fullName": "Maciej Wasilewski",
       "position": "Fullstack Developer",
       "photo": "",
       "seniority": 1,
-      "id": 3
+      "id": 3,
+      "github": "https://github.com/jakubmadyda",
+      "linkedin": "https://www.linkedin.com/in/jakubmadyda/"
     },
     {
       "fullName": "Filip Surówka",
       "position": "Regular Fronted Developer",
       "photo": "",
       "seniority": 1,
-      "id": 4
+      "id": 4,
+      "github": "https://github.com/jakubmadyda",
+      "linkedin": "https://www.linkedin.com/in/jakubmadyda/"
     },
     {
       "fullName": "Bartłomiej Sabiniok",
       "position": "Regular Frontend Developer",
       "photo": "",
       "seniority": 1,
-      "id": 5
+      "id": 5,
+      "github": "https://github.com/jakubmadyda",
+      "linkedin": "https://www.linkedin.com/in/jakubmadyda/"
     },
     {
       "fullName": "Marta Stefaniak",
       "position": "Regular Frontend Developer",
       "photo": "",
       "seniority": 1,
-      "id": 6
+      "id": 6,
+      "github": "https://github.com/jakubmadyda",
+      "linkedin": "https://www.linkedin.com/in/jakubmadyda/"
     },
     {
       "fullName": "Maciej Mogilewski",
       "position": "Regular Frontend Developer",
       "photo": "",
       "seniority": 1,
-      "id": 7
+      "id": 7,
+      "github": "https://github.com/jakubmadyda",
+      "linkedin": "https://www.linkedin.com/in/jakubmadyda/"
     }
   ]
 }
