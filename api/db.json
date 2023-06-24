@@ -17,7 +17,6 @@
       "id": 2,
       "github": "https://github.com/jakubmadyda",
       "linkedin": "https://www.linkedin.com/in/jakubmadyda/"
-
     },
     {
       "fullName": "Maciej Wasilewski",
@@ -85,6 +84,14 @@
           ]
         }
       ]
+    }
+  ],
+  "messages": [
+    {
+      "fullName": "dasdsadas",
+      "mail": "asdasdas",
+      "message": "adasda",
+      "id": 1
     }
   ]
 }
