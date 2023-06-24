@@ -8,6 +8,7 @@ function Navbar() {
             <a href="#home">Home</a>
             <a href="#about">About us</a>
             <a href="#employees">Employees</a>
+            <a href="#portfolio">Portfolio</a>
             <a href="#form">Contact</a>
         </nav>
     );
