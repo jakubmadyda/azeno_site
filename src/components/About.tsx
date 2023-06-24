@@ -1,4 +1,4 @@
-import {apiCall} from "@/api/api";
+import {apiCall} from "@/helpers/helpers";
 import {faker} from "@faker-js/faker";
 import React from 'react';
 

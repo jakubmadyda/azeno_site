@@ -1,4 +1,5 @@
 import Image from "next/image";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 function Navbar() {
     return (
@@ -10,6 +11,7 @@ function Navbar() {
             <a href="#employees">Employees</a>
             <a href="#portfolio">Portfolio</a>
             <a href="#form">Contact</a>
+            <LanguageSwitcher/>
         </nav>
     );
 }

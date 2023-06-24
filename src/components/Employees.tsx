@@ -1,4 +1,4 @@
-import {apiCall} from "@/api/api";
+import {apiCall} from "@/helpers/helpers";
 import Card from "@/components/Card";
 
 interface Employee {
