@@ -2,12 +2,13 @@ import About from "@/components/About";
 import Employees from "@/components/Employees";
 import FormContact from "@/components/FormContact";
 import Portfolio from "@/components/Portfolio";
+import HomePage from "@/components/HomePage";
 
 export default function Home() {
     return (
         <main className="flex min-h-screen flex-col items-center justify-between p-24">
             <section id="home" className="flex min-h-screen flex-col items-center justify-between p-24">
-                <h1>Home</h1>
+                <HomePage/>
             </section>
             <section id="about" className="flex min-h-screen flex-col items-center justify-between p-24">
                 <About/>
