@@ -1,7 +1,8 @@
 'use client'
 
-import {useEffect, useState} from "react";
+import React, {useEffect, useState} from "react";
 import {apiCall} from "@/api/api";
+import {faker} from "@faker-js/faker";
 
 interface Paragraph {
     type: "paragraph",
@@ -36,21 +37,25 @@ function Page() {
     return (
         <>
             <h1 className="text-center text-5xl mb-5">{content.mainTitle}</h1>
-            <div className="m-5">
-                <h3>{content.subtitle}</h3>
-                {content.texts.map((text) => (
-                    <>{text.type === "paragraph" ? (
-                        <p>{text.content}</p>
-                    ) : (
-                        <ul>
-                            {text.content.map((item) => (
-                                <li key={item}>{item}</li>
-                            ))}
-                        </ul>
-                    )}</>
-                ))}
+            <div className="grid grid-cols-2 max-w-5xl m-auto">
+                <div className="col-span-1">
+                    <img src={faker.image.urlPicsumPhotos({width: 500})} alt=""/>
+                </div>
+                <div className="col-span-1">
+                    <h3>{content.subtitle}</h3>
+                    {content.texts.map((text, idx) => (
+                        <React.Fragment key={idx}>{text.type === "paragraph" ? (
+                            <p>{text.content}</p>
+                        ) : (
+                            <ul>
+                                {text.content.map((item) => (
+                                    <li key={item}>{item}</li>
+                                ))}
+                            </ul>
+                        )}</React.Fragment>
+                    ))}
+                </div>
             </div>
-
         </>
     );
 }
