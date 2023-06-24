@@ -1,5 +1,13 @@
 {
   "Home": {
     "title": "Strona Główna"
+  },
+  "Menu": {
+    "home": "Strona Główna",
+    "about": "O nas",
+    "employees": "Nasz zespół",
+    "portfolio": "Projekty",
+    "carrier": "Kariera",
+    "contact": "Kontakt"
   }
 }

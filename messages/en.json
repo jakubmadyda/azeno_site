@@ -1,5 +1,13 @@
 {
   "Home": {
     "title": "Home Page"
+  },
+  "Menu": {
+    "home": "Home",
+    "about": "About us",
+    "employees": "Team",
+    "portfolio": "Projects",
+    "carrier": "Carrier",
+    "contact": "Contact"
   }
 }
