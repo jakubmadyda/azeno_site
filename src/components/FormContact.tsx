@@ -3,6 +3,7 @@
 import {SubmitHandler, useForm} from "react-hook-form";
 import React, {useEffect, useState} from "react";
 import {apiCall} from "@/api/api";
+import {validateEmail} from "@/helpers/validators";
 
 type Inputs = {
     fullName: string,
@@ -26,10 +27,7 @@ function FormContact() {
         reset();
     }
 
-    function validateEmail(v) {
-        return /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/.test(v) ||
-            "Email address must be a valid address"
-    }
+
 
     return (
         <div className="max-w-5xl m-auto">

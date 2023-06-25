@@ -12,7 +12,7 @@ interface List {
     content: string[]
 }
 
-interface Content {
+export interface Content {
     id: number,
     mainTitle: string,
     subtitle: string,

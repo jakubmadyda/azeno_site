@@ -16,6 +16,7 @@ function Navbar() {
                     <a href="#home">{t('home')}</a>
                     <a href="#about">{t('about')}</a>
                     <a href="#employees">{t('employees')}</a>
+                    <a href="#carrier">{t('carrier')}</a>
                     <a href="#portfolio">{t('portfolio')}</a>
                     <a href="#form">{t('contact')}</a>
                 </div>

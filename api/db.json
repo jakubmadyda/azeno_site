@@ -84,6 +84,18 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2,
+      "mainTitle": "Carrier",
+      "subtitle": "",
+      "image": "",
+      "texts": [
+        {
+          "type": "paragraph",
+          "content": "Working in our company is worth it for two main reasons. Firstly, we offer an innovative approach to technology. We provide employees with the opportunity to work with the latest tools and solutions, enabling them to develop their skills and contribute to the dynamic growth of the IT industry.\n\nAdditionally, our company places a strong emphasis on the work environment and culture. We create a friendly and supportive atmosphere where every employee has the opportunity to express their ideas and gain valuable experience. We value the commitment of our employees and offer numerous training programs and advancement opportunities, making work with us rewarding and motivating."
+        }
+      ]
     }
   ],
   "messages": [
