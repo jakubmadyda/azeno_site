@@ -9,5 +9,8 @@
     "portfolio": "Projects",
     "carrier": "Carrier",
     "contact": "Contact"
+  },
+  "LocaleSwitcher": {
+    "locale": "{locale, select, pl {Polish} en {English} other {Unknown}}"
   }
 }
