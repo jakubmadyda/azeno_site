@@ -3,6 +3,7 @@
 import Image from "next/image";
 import {useTranslations} from "use-intl";
 import LocaleSwitcher from "@/components/LanguageSwitcher";
+import ThemeSwitcher from "@/components/ThemeSwitcher";
 
 function Navbar() {
     const t = useTranslations('Menu')
@@ -20,7 +21,11 @@ function Navbar() {
                     <a href="#portfolio">{t('portfolio')}</a>
                     <a href="#form">{t('contact')}</a>
                 </div>
-                <LocaleSwitcher/>
+                <div>
+                    <LocaleSwitcher/>
+                    <ThemeSwitcher/>
+                </div>
+
             </div>
         </nav>
     );
